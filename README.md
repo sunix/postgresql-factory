@@ -15,7 +15,7 @@ And also the url should be display in the runner toolbar:
 ![datasourcerunner](https://cloud.githubusercontent.com/assets/650571/4736752/90a7774e-59ef-11e4-94a4-18623f59a4af.png)
 
 
-Create a new Datasource connection:
+## Create a new Datasource connection:
 
  - `Menu Datasource > New Datasource Connection`
  - Give a name, for instance `datasource`
@@ -27,6 +27,7 @@ Create a new Datasource connection:
  - Fill the password, in our example it is `neirashe` (from the runner message)
 
 
+## Test, browse and auto complete
 
 Test connection should work
 after creation, we can browse in the database with the datasource explorer and have completion in sql files, try out test.sql
