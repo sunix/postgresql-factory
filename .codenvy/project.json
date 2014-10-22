@@ -1,0 +1,1 @@
+{"runners":{"configs":{"project://datasource":{"variables":{},"ram":0,"options":{}}},"default":"project://datasource"},"builders":{"default":"maven"},"type":"maven","attributes":{}}
