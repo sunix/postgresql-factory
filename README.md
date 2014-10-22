@@ -12,6 +12,8 @@ And also the url should be display in the runner toolbar:
 
     Application: http://runner1.nightly.codenvy-stg.com:52167
 
+![datasourcerunner](https://cloud.githubusercontent.com/assets/650571/4736752/90a7774e-59ef-11e4-94a4-18623f59a4af.png)
+
 
 Create a new Datasource connection:
 
