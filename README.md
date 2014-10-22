@@ -1,6 +1,6 @@
-## Codenvy Postgresql factory with Datasource plugin
+# Codenvy Postgresql factory with Datasource plugin
 
-# Run the docker image
+## Run the docker image
 
     Menu Run > Run with > datasource
 
