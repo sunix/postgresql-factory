@@ -16,13 +16,15 @@ And also the url should be display in the runner toolbar:
 Create a new Datasource connection:
 
  - `Menu Datasource > New Datasource Connection`
- - Give a name
- - Choose `Hosted database > Postgresql`
- - Fill the generated database name, in our example it is `testdb_ohcheged` (from the runner message)
+ - Give a name, for instance `datasource`
+ - Choose `Hosted Database > PostgreSQL`
+ - Fill the database name, in our example it is `testdb_ohcheged` (from the runner message)
+ - Fill the host name, in our example it is `runner1.nightly.codenvy-stg.com` (from the url)
+ - Fill the port, in our example it is `52161` (from the url)
  - Fill the username, in our example it is `codenvy` (from the runner message)
  - Fill the password, in our example it is `neirashe` (from the runner message)
- - Fill the port, in our example it is `52161` (from the url)
- - Fill the hostname, in our example it is `runner1.nightly.codenvy-stg.com` (from the url)
+
+
 
 Test connection should work
 after creation, we can browse in the database with the datasource explorer and have completion in sql files, try out test.sql
