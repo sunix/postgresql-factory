@@ -1,30 +1,27 @@
-# Codenvy Postgresql factory with Datasource plugin
+# Codenvy Postgresql Factory with Datasource Plugin
 
-## Run the docker image
+## Run the Docker image
 
-    Menu Run > Run with > datasource
+    Menu Run > Run with > Datasource
 
 In the Runner console view it should display
 
-    [STDOUT] Connected to jdbc:postgresql://localhost:5432/testdb_ohcheged with user: codenvy, password: nairashe
-    
-And also the url should be display in the runner toolbar:
-
-    Application: http://runner1.nightly.codenvy-stg.com:52167
-
-![datasourcerunner](https://cloud.githubusercontent.com/assets/650571/4736752/90a7774e-59ef-11e4-94a4-18623f59a4af.png)
+    [STDOUT] export CODENVY_POSTGRESQL_PASSWORD=nairashe
+    [STDOUT] export CODENVY_POSTGRESQL_DB=testdb_ohcheged
+    [STDOUT] export CODENVY_POSTGRESQL_USER=codenvy
+    [STDOUT] port is mapped on 62126 on host runner1.nightly.codenvy-stg.com
 
 
 ## Create a new Datasource connection:
 
- - `Menu Datasource > New Datasource Connection`
+ - Go to `Datasource > New Datasource Connection`
  - Give a name, for instance `datasource`
  - Choose `Hosted Database > PostgreSQL`
- - Fill the database name, in our example it is `testdb_ohcheged` (from the runner message)
- - Fill the host name, in our example it is `runner1.nightly.codenvy-stg.com` (from the url)
- - Fill the port, in our example it is `52161` (from the url)
- - Fill the username, in our example it is `codenvy` (from the runner message)
- - Fill the password, in our example it is `neirashe` (from the runner message)
+ - Fill the database name, in our example it is `testdb_ohcheged`
+ - Fill the host name, in our example it is `runner1.nightly.codenvy-stg.com`
+ - Fill the port, in our example it is `52161`
+ - Fill the username, in our example it is `codenvy`
+ - Fill the password, in our example it is `neirashe`
 
 
 ## Test, browse and auto complete
